@@ -1,4 +1,4 @@
-# pIA
+# pIA-ros
 Završni projekt - metoda aukcije
 
 While petlje su za sada zakomentirane jer prvo treba razraditi komunikaciju između nodeova.
