@@ -1,2 +1,2 @@
 # pIA-ros
-Završni projekt - metoda aukcije
+Završni projekt - Raspoređivanje zadataka u višerobotskom sustavu korištenjem metode aukcije
