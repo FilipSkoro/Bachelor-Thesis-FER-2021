@@ -1,0 +1,47 @@
+agents:
+  - name: Robot1
+    velocity: 1
+    resources: wifi, bluetooth
+    location: 0, 0
+
+  - name: Robot2
+    velocity: 1
+    resources: bluetooth
+    location: 4, 4
+
+tasks:
+  - name: Zad1
+    resources: wifi
+    duration: 4
+    precedence: /
+    location: 5, 5
+
+  - name: Zad2
+    resources: wifi, bluetooth
+    duration: 2
+    precedence: Zad1, Zad6
+    location: 4, 2
+
+  - name: Zad3
+    resources: bluetooth
+    duration: 9
+    precedence: Zad2
+    location: 9, 7
+
+  - name: Zad4
+    resources: bluetooth
+    duration: 8
+    precedence: /
+    location: 11, 10
+
+  - name: Zad5
+    resources: wifi, bluetooth
+    duration: 3
+    precedence: Zad4
+    location: 9, 5
+
+  - name: Zad6
+    resources: wifi
+    duration: 4
+    precedence: /
+    location: 6, 7
