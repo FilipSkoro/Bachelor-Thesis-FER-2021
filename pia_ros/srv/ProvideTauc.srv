@@ -1,5 +1,0 @@
-TaskMessage[] Tauc
----
-TaskMessage bid
-float64 time
-string robot_name
