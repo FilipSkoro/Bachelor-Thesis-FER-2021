@@ -1,0 +1,10 @@
+<launch>
+
+        <rosparam command = "load" file = "$(find pia_ros)/config/Tasks.yaml" />
+        <node name = "Robot1" pkg = "pia_ros" type = "Bidder_node.py" ns = "robot1" output = "screen" />
+        <node name = "Robot2" pkg = "pia_ros" type = "Bidder_node.py" ns = "robot2" output = "screen" />
+        <node name = "Robot3" pkg = "pia_ros" type = "Bidder_node.py" ns = "robot3" output = "screen" />
+        <node name = "Robot4" pkg = "pia_ros" type = "Bidder_node.py" ns = "robot4" output = "screen" />
+        <node name = "Auctioneer" pkg = "pia_ros" type = "Auctioneer_node.py" ns = "auctioneer" output = "screen" />
+
+</launch>

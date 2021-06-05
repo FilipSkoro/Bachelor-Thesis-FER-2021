@@ -1,0 +1,133 @@
+agents:
+  - name: Robot1
+    velocity: 1
+    resources: wifi, bluetooth
+    location: 0, 0
+
+  - name: Robot2
+    velocity: 1
+    resources: bluetooth
+    location: 4, 4
+
+  - name: Robot3
+    velocity: 3
+    resources: wifi
+    location: 0, 1
+
+  - name: Robot4
+    velocity: 5
+    resources: bluetooth
+    location: 2, 0
+
+tasks:
+  - name: Zad1
+    resources: wifi
+    duration: 4
+    precedence: /
+    earliest_start_time: 0
+    latest_finish_time: 70
+    location: 5, 5
+
+  - name: Zad2
+    resources: bluetooth
+    duration: 2
+    precedence: Zad1, Zad6
+    earliest_start_time: 0
+    latest_finish_time: 100
+    location: 4, 2
+
+  - name: Zad3
+    resources: bluetooth
+    duration: 9
+    precedence: Zad2, Zad5
+    earliest_start_time: 20
+    latest_finish_time: 90
+    location: 9, 7
+
+  - name: Zad4
+    resources: bluetooth
+    duration: 8
+    precedence: /
+    earliest_start_time: 0
+    latest_finish_time: 70
+    location: 11, 10
+
+  - name: Zad5
+    resources: wifi, bluetooth
+    duration: 3
+    precedence: /
+    earliest_start_time: 25
+    latest_finish_time: 70
+    location: 9, 5
+
+  - name: Zad6
+    resources: wifi
+    duration: 4
+    precedence: /
+    earliest_start_time: 0
+    latest_finish_time: 100
+    location: 6, 7
+
+  - name: Zad7
+    resources: wifi
+    duration: 15
+    precedence: Zad8
+    earliest_start_time: 20
+    latest_finish_time: 70
+    location: 1, 1
+
+  - name: Zad8
+    resources: bluetooth
+    duration: 10
+    precedence: /
+    earliest_start_time: 15
+    latest_finish_time: 40
+    location: 10, 10
+
+  - name: Zad9
+    resources: wifi, bluetooth
+    duration: 8
+    precedence: Zad12
+    earliest_start_time: 0
+    latest_finish_time: 100
+    location: 9, 11
+
+  - name: Zad10
+    resources: wifi
+    duration: 5
+    precedence: Zad7
+    earliest_start_time: 30
+    latest_finish_time: 70
+    location: 11, 0
+
+  - name: Zad11
+    resources: wifi
+    duration: 5
+    precedence: /
+    earliest_start_time: 0
+    latest_finish_time: 100
+    location: 9, 9
+
+  - name: Zad12
+    resources: bluetooth
+    duration: 11
+    precedence: Zad8, Zad11
+    earliest_start_time: 15
+    latest_finish_time: 45
+    location: 10, 7
+
+  - name: Zad13
+    resources: wifi, bluetooth
+    duration: 9
+    precedence: /
+    earliest_start_time: 15
+    latest_finish_time: 80
+    location: 8, 10
+
+  - name: Zad14
+    resources: bluetooth
+    duration: 12
+    precedence: Zad13
+    earliest_start_time: 5
+    latest_finish_time: 45
+    location: 8, 8
