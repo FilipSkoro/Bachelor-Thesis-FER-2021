@@ -1,0 +1,9 @@
+Raspoređivanje zadataka u više-robotskom sustavu korištenjem metode aukcije
+
+Velika postrojenja poput tvornica, bolnica, skladišta nerijetko koriste uređaje odnosno robote koji automatski odrađuju poslove. Takva postrojenja često nailaze
+na probleme oko organizacije i podjele poslova u više-robotskim sustavima. Ovaj rad bavi se istraživanjem jedne od metoda koja pruža optimalan raspored zadataka -
+metoda aukcije. Objašnjena je problematika, potom teoretske postavke algoritama te programska izvedba. Rezultati razvijene metode predstavljeni su na 5 različitih
+primjera koji se razlikuju i koji bi trebali potvrditi ispravnost rada metode aukcije. Na kraju je zaključeno da metoda, uz sve svoje prednosti i mane, pruža optimalan
+raspored zadataka.
+
+Ključne riječi: aukcija, roboti, sustavi, više-robotski sustavi, organizacija, podjela poslova
