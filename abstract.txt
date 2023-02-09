@@ -1,0 +1,9 @@
+Task allocation in multi-robot systems based on auction method
+
+Large plants such as factories, hospitals, warehouses etc. often use devices or robots that automatically do the works. Such plants often run into problems with
+organization and task allocation when using multi-robot systems. This bachelor thesis researches one of the methods that provides optimal task scheduling -
+the auction method. The main issue is addressed first, then theoretical settings of algorithms and program implementation. The results of the developed method
+are presented on 5 different examples that differ and which should confirm the correctness of the auction method. In the end, it was concluded that the method,
+with all its advantages and disadvantages, provides an optimal schedule of tasks.
+
+Keywords: auction, robots, systems, multi-robot systems, organization, task allocation
